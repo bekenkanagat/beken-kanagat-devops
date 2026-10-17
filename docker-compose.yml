@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    image: beken-kanagat-devops
+    container_name: beken-kanagat-container
+    ports:
+      - "8000:8000"
+    environment:
+      STUDENT_NAME: "Kanagat"
+      STUDENT_SURNAME: "Beken"
+      STUDENT_GROUP: "IT2-2307"
+      STUDENT_ID: "38052"
